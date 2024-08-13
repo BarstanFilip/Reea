@@ -1,24 +1,23 @@
 header {
-    
- 
-    border: 2px dashed rgb(14, 119, 255); 
-    padding-left: 80px; 
-    width: auto; 
-    font-size: 3rem; 
+    border: 2px dashed rgb(14, 119, 255);
+    padding-left: 80px;
+    width: auto;
+    font-size: 3rem;
     box-sizing: border-box;
 }
 
-body{
-    padding:10%;
+body {
+    padding: 10%;
     font-size: 2rem;
 }
 
-input, button{
+input,
+button {
     font: inherit;
 }
 
-p{
-    text-decoration: underline ;
+p {
+    text-decoration: underline;
     text-align: justify;
     text-indent: 2em;
     line-height: 1.4;
@@ -27,25 +26,53 @@ p{
     font-weight: bold;
     font-style: italic;
     font-family: sans-serif;
+    margin-left: 1rem;
 }
 
-
-a{
-text-decoration: overline ;
-cursor: pointer;
-color: blueviolet;
-background: gray;
+a {
+    text-decoration: overline;
+    cursor: pointer;
+    color: blueviolet;
+    background: gray;
 }
 
-a:visited{
-
-color: aqua;
+a:visited {
+    color: aqua;
 }
 
-a:visited:hover{
-    color:rgb(211, 172, 113)
+a:visited:hover {
+    color: rgb(211, 172, 113);
 }
 
-a:active{
+a:active {
     color: yellow;
+}
+
+.block {
+    width: 30vw;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: bisque;
+    border: 1px solid #333;
+    padding: 1rem;
+    display: flow-root;
 }
